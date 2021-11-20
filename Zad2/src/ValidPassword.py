@@ -123,9 +123,9 @@ class ValidPassword:
             raise TypeError('Hasło nie jest typu string')
 
 
-if __name__ == "__main__":
-    # c = ValidPassword()
-    import doctest
-
-    # doctest.testmod()
-    doctest.testmod(extraglobs={'c': ValidPassword()})
+# if __name__ == "__main__":
+#     # c = ValidPassword()
+#     import doctest
+#
+#     # doctest.testmod()
+#     doctest.testmod(extraglobs={'c': ValidPassword()})
