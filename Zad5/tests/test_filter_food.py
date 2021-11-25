@@ -5,7 +5,7 @@ from src.filter_food import filter_food
 class test_filter_food(unittest.TestCase):
 
     def setUp(self):
-        self.temp=filter_food()
+        self.temp = filter_food()
 
     def test_filter_by_main_ingredient(self):
         self.assertEqual([{'id': '53016', 'meal': 'Chick-Fil-A Sandwich'}, {'id': '52850', 'meal': 'Chicken Couscous'},
